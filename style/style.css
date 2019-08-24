@@ -6,3 +6,8 @@ menu{
     display: block;
 }
 
+#slider{
+    height: 60%;
+    width: 60%;
+    left: 240px;
+}
