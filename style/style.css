@@ -1,14 +1,56 @@
-body {
-    background-color: white;
-}
-
 menu{
     display: block;
+    background-color: #b1b1b1;
 }
-
+.navbar{
+    height: 65px;
+    background-color: #b1b1b1;
+}
+.navbar-collapse{
+    font-size: 17px;
+}
 .carousel{
-    height: 100%;
-    width: 60%;
-    left: 450px;
+    position: center;
 }
 
+.autor{
+    text-align: justify;
+}
+
+.oautorze{
+    margin-top: 40px;
+}
+
+.mainsite{
+    width: 1080px;
+    position: relative;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.dmitrijphoto{
+    margin-right: 20px;
+}
+
+.metro2033{
+    position: center;
+    display: inline-block;
+}
+.ometro2033 .ometro2034 .ometro2035{
+    text-align: justify;
+}
+
+.metro2033foto .metro2033foto{
+    margin-right: 20px;
+}
+
+.footer{
+    position: relative;
+    background-color: #b1b1b1;
+    text-align: center;
+    height: 50px;
+    bottom: 0;
+    clear: both;
+}
