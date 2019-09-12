@@ -1,19 +1,26 @@
 menu{
     display: block;
     background-color: #b1b1b1;
-    align-items: center;
 }
 .navbar{
     height: 65px;
     background-color: #b1b1b1;
 }
+
+
 ul.navbar-nav{
     font-size: 24px;
-    margin: 1000px;
 }
 .navbar-collapse{
-    font-size: 17px;
+    font-size: 24px;
+    background-color: #f8f9fa;
+    z-index: 2;
 }
+
+.dropdown-menu{
+    background-color: #f8f9fa;
+}
+
 .carousel{
     position: center;
 }
@@ -28,7 +35,7 @@ ul.navbar-nav{
 
 .mainsite{
     width: 1080px;
-    position: relative;
+    position: inherit;
     margin: auto;
     top: 0;
     right: 0;
