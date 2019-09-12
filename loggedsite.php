@@ -4,9 +4,6 @@
     <link rel="icon" href="image/metroexodusicon.png">
     <link rel="stylesheet" href="style/style.css">
     <meta charset="UTF-8">
-    <meta name="description" content="Strona poświęcona uniwersum Metra Glukhovskiewgo">
-    <meta name="keywords" content="Uniwersum, Metro, Glukhovski">
-    <meta name="author" content="Piotr Dylag">
     <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>Uniwersum Metro</title>
@@ -24,10 +21,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="logo">
-    <img src="image/universum-logo.png" class="logo-image">
-</div>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Uniwersum Metro</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -51,98 +47,24 @@
                 <a class="nav-link" href="ciekawostki.php">Ciekawostki</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="galeria.php">Galeria</a>
+                <a class="nav-link" href="#">Galeria</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="gry.php">Gry</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Gry
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Metro 2033</a>
+                    <a class="dropdown-item" href="#">Metro Last Light</a>
+                    <a class="dropdown-item" href="#">Metro Exodus</a>
+                </div>
             </li>
         </ul>
     </div>
-<!--    <div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">-->
-<!--        <div class="modal-dialog cascading-modal" role="document">-->
-<!--            <div class="modal-content">-->
-<!--                <div class="modal-c-tabs">-->
-<!---->
-<!--                    <ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">-->
-<!--                        <li class="nav-item">-->
-<!--                            <a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i class="fas fa-user mr-1"></i>-->
-<!--                                Login</a>-->
-<!--                        </li>-->
-<!--                        <li class="nav-item">-->
-<!--                            <a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i class="fas fa-user-plus mr-1"></i>-->
-<!--                                Register</a>-->
-<!--                        </li>-->
-<!--                    </ul>-->
-<!--                    >-->
-<!--                    <div class="tab-content">-->
-<!--                        <div class="tab-pane fade in show active" id="panel7" role="tabpanel">-->
-<!---->
-<!--                            <div class="modal-body mb-1">-->
-<!--                                <form action="main.php?attempt" method="post" id="logging">-->
-<!--                                <div class="md-form form-sm mb-5">-->
-<!--                                    <i class="fas fa-envelope prefix"></i>-->
-<!--                                    <input type="text" id="modalLRInput10" name="login"form-control form-control-sm validate">-->
-<!--                                    <label data-error="wrong" data-success="right" for="modalLRInput10">Username</label>-->
-<!--                                </div>-->
-<!--                                    <div class="md-form form-sm mb-4">-->
-<!--                                    <i class="fas fa-lock prefix"></i>-->
-<!--                                    <input type="password" id="modalLRInput11" class="form-control form-control-sm validate">-->
-<!--                                    <label data-error="wrong" data-success="right" name="passwd" for="modalLRInput11">Your password</label>-->
-<!--                                </div>-->
-<!--                                <div class="text-center mt-2">-->
-<!--                                    <input type="submit" name="Log in" value="Log in">-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="modal-footer">-->
-<!--                                <div class="options text-center text-md-right mt-1">-->
-<!--                                    <p>Not a member? <a href="#" class="blue-text">Sign Up</a></p>-->
-<!--                                    <p>Forgot <a href="#" class="blue-text">Password?</a></p>-->
-<!--                                </div>-->
-<!--                                <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="tab-pane fade" id="panel8" role="tabpanel">-->
-<!---->
-<!--                            <div class="modal-body">-->
-<!--                                <div class="md-form form-sm mb-5">-->
-<!--                                    <i class="fas fa-envelope prefix"></i>-->
-<!--                                    <input type="email" id="modalLRInput12" class="form-control form-control-sm validate">-->
-<!--                                    <label data-error="wrong" data-success="right" name="email" for="modalLRInput12">Your email</label>-->
-<!--                                </div>-->
-<!---->
-<!--                                <div class="md-form form-sm mb-5">-->
-<!--                                    <i class="fas fa-lock prefix"></i>-->
-<!--                                    <input type="password" id="modalLRInput13" class="form-control form-control-sm validate">-->
-<!--                                    <label data-error="wrong" data-success="right" name="pass" for="modalLRInput13">Your password</label>-->
-<!--                                </div>-->
-<!---->
-<!--                                <div class="md-form form-sm mb-4">-->
-<!--                                    <i class="fas fa-lock prefix"></i>-->
-<!--                                    <input type="password" id="modalLRInput14" class="form-control form-control-sm validate">-->
-<!--                                    <label data-error="wrong" data-success="right" for="modalLRInput14">Repeat password</label>-->
-<!--                                </div>-->
-<!---->
-<!--                                <div class="text-center form-sm mt-2">-->
-<!--                                    <button class="btn btn-info">Sign up <i class="fas fa-sign-in ml-1"></i></button>-->
-<!--                                </div>-->
-<!---->
-<!--                            </div>-->
-<!--                            <div class="modal-footer">-->
-<!--                                <div class="options text-right">-->
-<!--                                    <p class="pt-1">Already have an account? <a href="#" class="blue-text">Log In</a></p>-->
-<!--                                </div>-->
-<!--                                <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!---->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="text-center">-->
-<!--        <a href="" class="btn btn-default btn-rounded my-3" data-toggle="modal" data-target="#modalLRForm">Login/Register</a>-->
-<!--    </div>-->
+    <div>
+
+    </div>
 </nav>
 
 <div id="slider" class="carousel slide carousel-fade" data-ride="carousel">
@@ -226,46 +148,33 @@
 </div>
 </body>
 <?php
-//if(isset($_REQUEST['attempt'])){
-//    $conn = mysqli_connect('localhost', 'dylpio', 'myazWtUPsql', 'dylpio' );
-//    if (!$conn) {
-//        die("Connection failed: " . mysqli_error($conn));
-//    }
-//    $username = $_POST['login'];
-//    $passwd = $_POST['passwd'];
-//
-//    $query = mysqli_query($conn, "
-//    SELECT login
-//    FROM loginsTB
-//    WHERE login = '$username'
-//    AND pass = '$passwd'") or die(mysqli_error($conn));
-//
-//    $total =  mysqli_num_rows($query);
-//    if($total > 0){
-//        session_start();
-//        $_SESSION['login'] = $username;
-//        $_SESSION['pass'] = $passwd;
-//        header("location: loggedsite.php");
-//    }
-//
-//    if(isset($_POST['login']) && isset($_POST['passwd']) && isset($_POST['email'])) {
-//        $username = $_POST['login'];
-//        $password = $_POST['passwd'];
-//        $email = $_POST['email'];
-//    }else{
-//        echo "Podaj kompletne dane do rejestracji!";
-//    }
-//
-//    $sql = "INSERT INTO loginsTB (id, login, pass, email) VALUES ('','$username', '$password', '$email')";
-//    if (mysqli_query($conn, $sql)=== TRUE) {
-//        echo "Zostałeś pomyślnie zarejestrowany!";
-//    } else {
-//        echo "ERROR: " . $sql . "<br>" . $conn->error;
-//    }
-//    header("location: loggedsite.php");
-//    mysqli_close($conn);
-//}
-//
-//?>
+if(isset($_REQUEST['attempt'])){
+    $conn = mysqli_connect('localhost', 'dylpio', 'myazWtUPsql', 'dylpio' );
+    if (!$conn) {
+        die("Connection failed: " . mysqli_error($conn));
+    }
+    $username = $_POST['login'];
+    $passwd = $_POST['passwd'];
+
+    $query = mysqli_query($conn, "
+    SELECT login 
+    FROM loginsTB
+    WHERE login = '$username'
+    AND pass = '$passwd'") or die(mysqli_error($conn));
+
+    $total =  mysqli_num_rows($query);
+    if($total > 0){
+        session_start();
+        $_SESSION['login'] = $username;
+        $_SESSION['pass'] = $passwd;
+        header("location: loggedsite.php");
+    }
+
+    mysqli_close($conn);
+}
+
+
+?>
 </html>
+
 
