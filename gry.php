@@ -56,6 +56,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="gry.php">Gry</a>
             </li>
+            <div class="btnlog"></div>
+            <button type="button" class="btnlogin" onclick="location.href = 'loggin.php'"> Login</button>
+    </div>
         </ul>
     </div>
 </nav>

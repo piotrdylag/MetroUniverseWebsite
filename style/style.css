@@ -135,3 +135,30 @@ ul.navbar-nav{
     display: block;
     padding: 20px;
 }
+
+.zalog{
+    left: 390px;
+    position: relative;
+}
+
+.zareje{
+    left: 390px;
+    position: relative;
+}
+
+.zarejestrujsie{
+    right: 20px;
+}
+
+#registerform{
+    position: relative;
+    left: 70px;
+}
+
+.zaloginfo{
+    text-align: center;
+}
+
+.powitanie{
+    text-align: center;
+}

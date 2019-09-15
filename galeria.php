@@ -58,6 +58,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="gry.php">Gry</a>
             </li>
+            <div class="btnlog"></div>
+            <button type="button" class="btnlogin" onclick="location.href = 'loggin.php'"> Login</button>
+    </div>
         </ul>
     </div>
 <!--    <div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">-->

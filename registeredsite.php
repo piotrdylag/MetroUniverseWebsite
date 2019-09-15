@@ -68,10 +68,20 @@
     </div>
 </nav>
 <div class="mainsite">
-        <h1 class="zaloginfo">ZALOGOWANY POPRAWNIE</h1>
+    <h1 class="zaloginfo">ZAREJESTROWANO POPRAWNIE</h1>
     <div class="powitanie">
-    <p>Witaj</p>
-        <p><?php session_start(); $username = $_SESSION['login']; echo $username;?></p>
+        <p>Witaj</p>
+        <p><?php if(isset($_REQUEST['attempt'])) {
+                $conn = mysqli_connect('localhost', 'dylpio', 'myazWtUPsql', 'dylpio');
+                if (!$conn) {
+                    die("Connection failed: " . mysqli_error($conn));
+                }
+                $zap = mysqli_query("SELECT * FROM loginsTB");
+                    $r = mysqli_fetch_array($zap);
+                        echo $r['login'];
+                        mysqli_close($conn);
+            }
+            ?></p>
     </div>
 </div>
 <div class="footer">
@@ -80,5 +90,3 @@
 </div>
 </body>
 </html>
-
-
