@@ -17,7 +17,7 @@
 </head>
 <body>
 <div class="logo">
-    <img src="image/universum-logo.png" class="logo-image">
+    <img src="image/universum-logo.png" class="logo-image" alt="Uniwersum metro Logo">
 </div>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -48,116 +48,115 @@
             <li class="nav-item">
                 <a class="nav-link" href="gry.php">Gry</a>
             </li>
-            <div class="btnlog"></div>
             <button type="button" class="btnlogin" onclick="location.href = 'loggin.php'"> Login</button>
-    </div>
         </ul>
     </div>
+
 </nav>
 <div class="mainsite">
     <h1 class="uniwersum-head">UNIWERSUM METRO</h1>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/Riese.jpg">
+        <img src="image/universmetro/Riese.jpg"alt="Riese">
         <p><b>Riese</b> - Robert J. Szmidt</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/Czerwony-wariant.jpg">
+        <img src="image/universmetro/Czerwony-wariant.jpg" alt="Czerwony Wariant">
         <p><b>Czerwony Wariant</b> - Siergiej Niedorub</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/piter.wojna.jpg">
+        <img src="image/universmetro/piter.wojna.jpg" alt="Piter.Wojna">
         <p><b>Piter. Wojna</b> - Szymun Wroczek</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/koniec_drogi.jpg">
+        <img src="image/universmetro/koniec_drogi.jpg" alt="Koniec drogi">
         <p><b>Koniec Drogi</b> - Dmitry Glukhovsky</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/wedrowiec.jpg">
+        <img src="image/universmetro/wedrowiec.jpg" alt="Wędrowiec">
         <p><b>Wędrowiec</b> - Suren Cormudian</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/krucjata-dzieci.jpg">
+        <img src="image/universmetro/krucjata-dzieci.jpg" alt="Krucjata dzieci">
         <p><b>Krucjata dzieci</b> - Tullio Avoledo</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/w-ruinie.jpg">
+        <img src="image/universmetro/w-ruinie.jpg" alt="W ruinie">
         <p><b>W ruinie</b> - Polscy Fani</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/prawo-do-zemsty.jpg">
+        <img src="image/universmetro/prawo-do-zemsty.jpg" alt="Prawo do zemsty">
         <p><b>Prawo do zemsty</b> - Denis Szabałow</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/achromatopsja.jpg">
+        <img src="image/universmetro/achromatopsja.jpg" alt="Achromatopsja">
         <p><b>Achromatopsja</b> - Artur Chmielewski</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/czlowiek-obiecany.jpg">
+        <img src="image/universmetro/czlowiek-obiecany.jpg" alt="Człowiek obiecany">
         <p><b>Człowiek obiecany</b> - Paweł Majka</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/prawo-do-zycia.jpg">
+        <img src="image/universmetro/prawo-do-zycia.jpg" alt="Prawo do życia">
         <p><b>Prawo do życia</b> - Denis Szabałow</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/wieza.jpg">
+        <img src="image/universmetro/wieza.jpg" alt="Wieża">
         <p><b>Wieża</b> - Robert J. Szmidt</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/echo-zgaslego-swiata.jpg">
+        <img src="image/universmetro/echo-zgaslego-swiata.jpg" alt="Echo zgasłego światła">
         <p><b>Echo zgasłego światła</b> - Polscy Fani</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/prawo-do-uzycia-sily.jpg">
+        <img src="image/universmetro/prawo-do-uzycia-sily.jpg" alt="Prawo do użycia siły">
         <p><b>Prawo do użycia siły</b> - Denis Szabałow</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/otchlan.jpg">
+        <img src="image/universmetro/otchlan.jpg" alt="Otchłań">
         <p><b>Otchłań</b> - Robert J. Szmidt</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/szepty-zgladzonych.jpg">
+        <img src="image/universmetro/szepty-zgladzonych.jpg" alt="Szepty zgładzonych">
         <p><b>Szepty zgładzonych</b> - Polscy fani</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/ciemne-tunele.jpg">
+        <img src="image/universmetro/ciemne-tunele.jpg" alt="Ciemne tunele">
         <p><b>Ciemne tunele</b> - Siergiej Antonow</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/mrowancza.jpg">
+        <img src="image/universmetro/mrowancza.jpg" alt="Mrówańcza">
         <p><b>Mrówańcza</b> - Rusłan Mielnikow</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/dzielnica-obiecana.jpg">
+        <img src="image/universmetro/dzielnica-obiecana.jpg" alt="Dzielnica obiecana">
         <p><b>Dzielnica obiecana</b> - Paweł Majka</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/dziedzictwo-przodkow.jpg">
+        <img src="image/universmetro/dziedzictwo-przodkow.jpg" alt="Dziedzictwo przodków">
         <p><b>Dziedzictwo przodków</b> - Suren Cormudian</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/w-blasku-ognia.png">
+        <img src="image/universmetro/w-blasku-ognia.png"alt="W blasku ognia">
         <p><b>W blasku ognia</b> - Polscy fani</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/za-horyzont.jpg">
+        <img src="image/universmetro/za-horyzont.jpg" alt="Za horyzont">
         <p><b>Za horyzont</b> - Andriej Diakow</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/korzenie-niebios.jpg">
+        <img src="image/universmetro/korzenie-niebios.jpg" alt="Korzenie niebios">
         <p><b>Korzenie niebios</b> - Tullio Avoledo</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/w-mrok.jpg">
+        <img src="image/universmetro/w-mrok.jpg" alt="W mrok">
         <p><b>W mrok</b> - Andriej Diakow</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/do-swiatla.jpg">
+        <img src="image/universmetro/do-swiatla.jpg" alt="Do światła">
         <p><b>Do światła</b> - Andriej Diakow</p>
     </div>
     <div class="metrouniverse-row-col">
-        <img src="image/universmetro/piter.jpg">
+        <img src="image/universmetro/piter.jpg" alt="Piter">
         <p><b>Piter</b> - Szymun Wroczek</p>
     </div>
 </div>

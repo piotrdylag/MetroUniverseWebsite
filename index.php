@@ -7,7 +7,7 @@
     <meta name="description" content="Strona poświęcona uniwersum Metra Glukhovskiewgo">
     <meta name="keywords" content="Uniwersum, Metro, Glukhovski">
     <meta name="author" content="Piotr Dylag">
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta content="text/html; charset=utf-8" name="utf8cod">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>Uniwersum Metro</title>
     <!-- Latest compiled and minified CSS -->
@@ -24,7 +24,7 @@
 </head>
 <body>
 <div class="logo">
-    <img src="image/universum-logo.png" class="logo-image">
+    <img src="image/universum-logo.png" class="logo-image" alt="Uniwersum metro Logo">
 </div>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -55,9 +55,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="gry.php">Gry</a>
             </li>
-            <div class="btnlog"></div>
             <button type="button" class="btnlogin" onclick="location.href = 'loggin.php'"> Login</button>
-    </div>
         </ul>
     </div>
 </nav>
@@ -92,7 +90,7 @@
 </div>
 <div class="mainsite">
     <div class="oautorze">
-        <img src="image/dmitrijgluchowski.jpg" class="dmitrijphoto" align="left">
+        <img src="image/dmitrijgluchowski.jpg" class="dmitrijphoto" align="left" alt="Dimitrji Glukhovski">
         <p class="autor"><b>Dmitrij Głuchowski</b> urodził się i wychował w Moskwie. Jego rodzina jest zaliczana do
             rosyjskiej inteligencji.
             Rozpoczął edukację w moskiewskiej szkole im. W. D. Polienowa z rozszerzoną nauką języka francuskiego. Już

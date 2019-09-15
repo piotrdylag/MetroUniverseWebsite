@@ -17,7 +17,7 @@
 </head>
 <body>
 <div class="logo">
-    <img src="image/universum-logo.png" class="logo-image">
+    <img src="image/universum-logo.png" class="logo-image" alt="Uniwersum metro Logo">
 </div>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -48,15 +48,14 @@
             <li class="nav-item">
                 <a class="nav-link" href="gry.php">Gry</a>
             </li>
-            <div class="btnlog"></div>
             <button type="button" class="btnlogin" onclick="location.href = 'loggin.php'"> Login</button>
-    </div>
         </ul>
+    </div>
     </div>
 </nav>
 <div class="mainsite">
     <div class="metro2033">
-        <img src="image/metro2033_ksiazka.jpg" class="metro2033foto" align="left">
+        <img src="image/metro2033_ksiazka.jpg" class="metro2033foto" align="left" alt="Metro 2033">
         <p class="ometro2033"> Rosyjska powieść postapokaliptyczna napisana przez Dmitrija Głuchowskiego, pierwsza część
             trylogii. Akcja powieści
             rozgrywa się w moskiewskim metrze w 2033 roku, 20 lat po wojnie nuklearnej. Została opublikowana w 2005 roku
@@ -69,7 +68,7 @@
     </div>
     <hr>
     <div class="metro2034">
-        <img src="image/metro2034_ksiazka.jpg" class="metro2034foto" align="left">
+        <img src="image/metro2034_ksiazka.jpg" class="metro2034foto" align="left" alt="Metro 2034">
         <p class="ometro2034">
             Powieść postapokaliptyczna autorstwa rosyjskiego pisarza Dmitrija Głuchowskiego. Jest to druga część
             trylogii Metro 2033.
@@ -110,7 +109,7 @@
     </div>
     <hr>
     <div class="metro2035">
-        <img src="image/metro2035_ksiazka.jpg" class="metro2035foto" align="left">
+        <img src="image/metro2035_ksiazka.jpg" class="metro2035foto" align="left" alt="Metro 2035">
         <p class="ometro2035">
             Powieść postapokaliptyczna autorstwa rosyjskiego pisarza Dmitrija Głuchowskiego, ostatnia część trylogii
             Metro 2033. Książka nawiązuje do wydarzeń z gry komputerowej Metro: Last Light i kontynuuje losy

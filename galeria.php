@@ -18,7 +18,7 @@
 </head>
 <body>
 <div class="logo">
-    <img src="image/universum-logo.png" class="logo-image">
+    <img src="image/universum-logo.png" class="logo-image" alt="Uniwersum metro Logo">
 </div>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -49,10 +49,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="gry.php">Gry</a>
             </li>
-            <div class="btnlog"></div>
             <button type="button" class="btnlogin" onclick="location.href = 'loggin.php'"> Login</button>
-    </div>
         </ul>
+    </div>
     </div>
 <!--    <div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">-->
 <!--        <div class="modal-dialog cascading-modal" role="document">-->
@@ -143,27 +142,27 @@
 
 <div class="mainsite">
     <div class="gallery">
-        <img class="item" src="image/annametroexodus.jpg">
-        <img class="item" src="image/ArtyomMetroExodus.jpg">
-        <img class="item" src="image/ArtyomMetroExodus.png">
-        <img class="item" src="image/cropped-616-357-943955.jpg">
-        <img class="item" src="image/dmitrijgluchowski.jpg">
-        <img class="item" src="image/ksiazki.jpg">
-        <img class="item"src="image/metro_2033_redux.jpg">
-        <img class="item" src="image/Metro2033_foto.jpg">
-        <img class="item" src="image/Metro2033_foto2.jpg">
-        <img class="item" src="image/Metro2033_foto3.jpg">
-        <img class="item" src="image/metro2033_ksiazka.jpg">
-        <img class="item" src="image/metro2034_ksiazka.jpg">
-        <img class="item" src="image/metro2035_ksiazka.jpg">
-        <img class="item" src="image/metroex.jpeg">
-        <img class="item" src="image/Metrofoto.jpg">
-        <img class="item" src="image/Metrofoto2.jpg">
-        <img class="item" src="image/Metrofoto3.jpg">
-        <img class="item" src="image/metrolastlight.jpg">
-        <img class="item" src="image/MillerMetroExodus.png">
-        <img class="item" src="image/postapotlo.jpg">
-        <img class="item"src="image/uniwersum.png">
+        <img class="item" src="image/annametroexodus.jpg" alt="Anna">
+        <img class="item" src="image/ArtyomMetroExodus.jpg" alt="Metro Exodus">
+        <img class="item" src="image/ArtyomMetroExodus.png" alt="Artyom">
+        <img class="item" src="image/cropped-616-357-943955.jpg" alt="Metro">
+        <img class="item" src="image/dmitrijgluchowski.jpg" alt="Dmitrji Glukhovski">
+        <img class="item" src="image/ksiazki.jpg" alt="Książki uniwersum">
+        <img class="item"src="image/metro_2033_redux.jpg" alt="Metro 2033">
+        <img class="item" src="image/Metro2033_foto.jpg" alt="Metro">
+        <img class="item" src="image/Metro2033_foto2.jpg" alt="Metro">
+        <img class="item" src="image/Metro2033_foto3.jpg" alt="Metro">
+        <img class="item" src="image/metro2033_ksiazka.jpg" alt="Metro">
+        <img class="item" src="image/metro2034_ksiazka.jpg" alt="Metro">
+        <img class="item" src="image/metro2035_ksiazka.jpg" alt="Metro">
+        <img class="item" src="image/metroex.jpeg" alt="Metro Exodus">
+        <img class="item" src="image/Metrofoto.jpg" alt="Metro">
+        <img class="item" src="image/Metrofoto2.jpg" alt="Metro">
+        <img class="item" src="image/Metrofoto3.jpg" alt="Metro">
+        <img class="item" src="image/metrolastlight.jpg" alt="Metro">
+        <img class="item" src="image/MillerMetroExodus.png" alt="Metro">
+        <img class="item" src="image/postapotlo.jpg" alt="Metro">
+        <img class="item"src="image/uniwersum.png" alt="Metro">
         <script>
             const msnry = new Macy({
                 container: '.gallery',

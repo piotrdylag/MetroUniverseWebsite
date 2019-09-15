@@ -17,7 +17,7 @@
 </head>
 <body>
 <div class="logo">
-    <img src="image/universum-logo.png" class="logo-image">
+    <img src="image/universum-logo.png" class="logo-image" alt="Uniwersum metro Logo">
 </div>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -48,15 +48,15 @@
             <li class="nav-item">
                 <a class="nav-link" href="gry.php">Gry</a>
             </li>
-            <div class="btnlog"></div>
             <button type="button" class="btnlogin" onclick="location.href = 'loggin.php'"> Login</button>
-    </div>
         </ul>
+    </div>
+
     </div>
 </nav>
 <div class="mainsite">
     <div class="metro2033">
-        <img src="image/metro_2033_redux.jpg" class="metro-2033-foto">
+        <img src="image/metro_2033_redux.jpg" class="metro-2033-foto" alt="Metro 2033">
         <p class="ometro_2033"> Metro 2033 to strzelanina osadzona w stosunkowo niedalekiej przyszłości. Fabuła opowiada
             o nuklearnej apokalipsie, wskutek której ludność wszystkich miast uległa anihilacji, zaś same środowisko
             doświadczyło potężnego napromieniowania i nieprawdopodobnej degradacji. Ocalała jedynie kilkutysięczna
@@ -86,7 +86,7 @@
     </div>
     <hr>
     <div class="metro2034">
-        <img src="image/metrolastlight.jpg" class="metro-last-light-foto">
+        <img src="image/metrolastlight.jpg" class="metro-last-light-foto" alt="Metro Last Light">
         <p class="ometro_ll">
             Akcja toczy się w niedalekiej przyszłości, w świecie zniszczonym przez nuklearną apokalipsę. Większość miast
             została zrównana z ziemią, a ich mieszkańców spotkała śmierć. Ocalała jedynie garstka ludzi, w tym
@@ -100,7 +100,7 @@
     </div>
     <hr>
     <div class="metro2035">
-        <img src="image/metroex.jpeg" class="metro-exodus-foto">
+        <img src="image/metroex.jpeg" class="metro-exodus-foto" alt="MEtro Exodus">
         <p class="ometro_ex">
             Metro Exodus to pierwszoosobowa strzelanka osadzona w postapokaliptycznych realiach. Stanowi ona trzecią
             odsłonę cyklu opartego na powieściach Dmitrija Głuchowskiego, po grach Metro 2033 oraz Metro: Last Light.

@@ -17,7 +17,7 @@
 </head>
 <body>
 <div class="logo">
-    <img src="image/universum-logo.png" class="logo-image">
+    <img src="image/universum-logo.png" class="logo-image" alt="Uniwersum metro Logo">
 </div>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -48,10 +48,10 @@
             <li class="nav-item">
                 <a class="nav-link" href="gry.php">Gry</a>
             </li>
-            <div class="btnlog"></div>
             <button type="button" class="btnlogin" onclick="location.href = 'loggin.php'"> Login</button>
-    </div>
         </ul>
+    </div>
+
     </div>
 </nav>
 <div class="mainsite">
@@ -72,7 +72,7 @@
             uniwersum. Co więcej, stacje, które mają głębsze znaczenie dla fabuły jego powieści – jak np. VDNKh (w
             polskiej wersji gier i książek znana jako WOGN) – to przystanki, na których Dmitrij przesiadał się pomiędzy
             różnymi liniami metra w drodze na zajęcia.</p>
-        <img src="image/mapa-metro.jpg" class="mapa-img">
+        <img src="image/mapa-metro.jpg" class="mapa-img" alt="mapa metro">
     </div>
 </div>
 <div class="footer">
