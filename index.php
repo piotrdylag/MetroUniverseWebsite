@@ -7,7 +7,7 @@
     <meta name="description" content="Strona poświęcona uniwersum Metra Glukhovskiewgo">
     <meta name="keywords" content="Uniwersum, Metro, Glukhovski">
     <meta name="author" content="Piotr Dylag">
-    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>Uniwersum Metro</title>
     <!-- Latest compiled and minified CSS -->
@@ -34,7 +34,7 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="main.php">Główna <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.php">Główna <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
