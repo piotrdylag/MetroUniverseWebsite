@@ -137,6 +137,10 @@
 <div class="footer">
     <b>&copy Project by Piotr Dylag</b> <br>
     Uniwersytet Pedagogiczny im. Komisji Edukacji Narodowej w Krakowie 2019
+    <P ALIGN="right">
+        Licznik odwiedzin:<BR>
+        <?php include("scripts/visitCounter.php");?>
+    </P>
 </div>
 </body>
 <?php

@@ -1,6 +1,6 @@
 <?php
 if(isset($_REQUEST['attempt'])){
-    $conn = mysqli_connect('localhost', 'dylpio', 'myazWtUPsql', 'dylpio' );
+    $conn = mysqli_connect('localhost', 'root', 'Starwars0103', 'UniwersumMetroDB' );
     if (!$conn) {
         die("Connection failed: " . mysqli_error($conn));
     }

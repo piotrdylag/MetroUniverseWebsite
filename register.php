@@ -74,9 +74,9 @@
 session_start();
 if(isset($_REQUEST['attempt'])) {
     $servername = "localhost";
-    $username = "dylpio";
-    $password = "myazWtUPsql";
-    $dbname = "dylpio";
+    $username = "root";
+    $password = "Starwars0103";
+    $dbname = "UniwersumMetroDB";
 
 // Create connection
     $conn = mysqli_connect($servername, $username, $password, $dbname);;
